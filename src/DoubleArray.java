@@ -15,8 +15,8 @@ public class DoubleArray {
         for (int i = 0, j= arrayStart.length -1; i <  j; i++, j--) {
             System.out.print(arrayStart[i]+" ");
             System.out.println(arrayStart[j] +" ");
-            }
         }
+        }//tu jest koniec nie da się bez drugiej pęti zobić ifami "nawrotu"
 /*
         for (int i = arrayStart.length-1; i >=0 ; i--) {
             System.out.print(arrayStart[i] + " ");
