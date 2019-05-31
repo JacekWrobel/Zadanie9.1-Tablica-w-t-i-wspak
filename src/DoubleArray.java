@@ -12,11 +12,10 @@ public class DoubleArray {
         String arrayInString = Arrays.toString(arrayStart);
         System.out.println(arrayInString);
 
-        for (int i = 0, j= arrayStart.length -1; i <  j; i++, j--) {
-            System.out.print(arrayStart[i]+" ");
-            System.out.println(arrayStart[j] +" ");
+        for (int i = 0; i < arrayStart.length; i++) {
+            System.out.print(arrayStart[i] + " ");
         }
-        }//tu jest koniec nie da się bez drugiej pęti zobić ifami "nawrotu"
+    }//tu jest koniec nie da się bez drugiej pęti zobić ifami "nawrotu"
 /*
         for (int i = arrayStart.length-1; i >=0 ; i--) {
             System.out.print(arrayStart[i] + " ");
@@ -28,5 +27,5 @@ public class DoubleArray {
         Do wyświetlania możesz wykorzystać tylko jedną pętlę i tą pętlą powinna być pętla for.
         Nie możesz w programie tworzyć żadnych dodatkowych tablic.
          */
-    }
 }
+
